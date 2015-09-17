@@ -33,7 +33,6 @@
        echo 'Resultado da operacao: '.$acao.' '.$res;
     
      }
-
     if{isset($_POST['btncalc']) && $_POST['btncalc']=='Subtrair')
 
        
@@ -45,4 +44,6 @@
        echo 'Resultado da operacao: '.$acao.' '.$res;
      
     }
+
+
 ?>
