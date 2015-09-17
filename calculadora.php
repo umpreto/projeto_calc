@@ -11,9 +11,10 @@
             <input type="number" name="Num2"/>
             <label>Resultado:</label>
             <input type="number" name="Res"/>
-
-            <input type="hidden" name="acao" value="calcular"/>
             <input type="submit" name="btnsoma" value="Somar"/>
+            <input type="submit" name="btnsoma" value="Subtrair"/>
+
+
                 
          </form>
     </div>
@@ -21,7 +22,7 @@
 </html>
 
 
-    if(isset($_POST['acao']) && $_POST['acao']=='calcular'){
+    if(isset($_POST['acao']) && $_POST['acao']=='soma'){
 
     $acao = $_POST['acao'];
     $num1 = $_POST['Num1'];
